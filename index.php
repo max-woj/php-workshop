@@ -26,9 +26,7 @@ $products = [
 		print_r($catalog);
 		?>
 		<ul>
-			<li><a href="index.html">Strona główna</a></li>
-			<li><a href="galeria.php">Gazetka promocyjna</a></li>
-			<li><a href="kontakt.php">Kontakt</a></li>
+			<li><a href="pages/Posty.php">Posty</a></li>
 		</ul>
 	</div>
 	<div class="content">
@@ -51,8 +49,11 @@ $products = [
 
 	</div>
 </div>
-<div class="footer">
-	<div class="sidenote"><span>Stworzone za pomocą moich dłoni - 22.12.2020</span></div>
-</div>
+<?php
+
+	include "partials/footer.php";
+
+
+?>
 </body>
 </html>
